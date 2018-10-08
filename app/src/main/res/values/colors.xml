@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#d81b60</color>
+    <color name="overscroll">#33b5e5</color>
+    <color name="fillColor">#ff0099</color>
+    <color name="pageColor">#FF0000</color>
 </resources>
