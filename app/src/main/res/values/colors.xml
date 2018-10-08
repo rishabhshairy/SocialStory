@@ -6,4 +6,6 @@
     <color name="overscroll">#33b5e5</color>
     <color name="fillColor">#ff0099</color>
     <color name="pageColor">#FF0000</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

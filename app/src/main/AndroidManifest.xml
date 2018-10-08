@@ -25,7 +25,7 @@
         <activity
             android:name=".categoryActivity"
             android:rotationAnimation="crossfade" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
     </application>
 
 </manifest>

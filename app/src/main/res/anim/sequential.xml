@@ -16,10 +16,10 @@
         <!--android:startOffset="1100"-->
         <!--android:toYDelta="70%p" />-->
     <translate
-        android:duration="800"
+        android:duration="500"
         android:fillAfter="true"
         android:fromXDelta="-75%p"
-        android:startOffset="1900"
+        android:startOffset="1000"
         android:toXDelta="0%p" />
     <!--<translate-->
         <!--android:duration="800"-->

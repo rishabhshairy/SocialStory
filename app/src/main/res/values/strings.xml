@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SocialStory</string>
+
+    <string name="title_activity_back_or_restart">BackOrRestart</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
