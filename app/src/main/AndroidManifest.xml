@@ -22,9 +22,10 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".categoryActivity"
-                android:rotationAnimation="crossfade"
-            ></activity>
+        <activity
+            android:name=".categoryActivity"
+            android:rotationAnimation="crossfade" />
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>
