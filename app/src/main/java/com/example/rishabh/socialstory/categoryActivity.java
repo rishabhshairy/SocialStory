@@ -24,8 +24,10 @@ public class categoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
         als=new ArrayList<>();
-        als.add("Hello");
-        als.add("Friends");
+        als.add("SchoolActivity");
+        als.add("Brush Your Tooth");
+        als.add("Play with friends");
+        als.add("Birthday");
         adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,als);
         listView=findViewById(R.id.lview1);
 
@@ -36,6 +38,15 @@ public class categoryActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i==0){
                     startActivity(new Intent(getApplicationContext(),ImageActivity.class));
+                }
+                else if(i==1){
+                    startActivity(new Intent(getApplicationContext(),BrushToothActivity.class));
+                }
+                else if(i==2){
+                    startActivity(new Intent(getApplicationContext(),PlayGameActivity.class));
+                }
+                else if(i==3){
+                    startActivity(new Intent(getApplicationContext(),BirthdayActivity.class));
                 }
             }
         });

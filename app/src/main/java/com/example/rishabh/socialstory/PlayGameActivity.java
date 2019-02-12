@@ -11,12 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-public class ImageActivity extends FragmentActivity {
+public class PlayGameActivity extends FragmentActivity {
     ImageFragmentPagerAdapter imageFragmentPagerAdapter;
     ViewPager viewPager;
-    private static final Integer[] IMAGE_NAME = {R.drawable.capture1,R.drawable.capture2,R.drawable.capture3,R.drawable.capture4,
-            R.drawable.capture5,R.drawable.capture6,R.drawable.capture7,R.drawable.capture8,R.drawable.capture9,
-            R.drawable.capture10,R.drawable.capture11,R.drawable.capture12,R.drawable.capture13};
+    private static final Integer[] IMAGE_NAME = {R.drawable.pg1,R.drawable.pg2,
+            R.drawable.pg3,R.drawable.pg4,
+            R.drawable.pg5,R.drawable.pg6,
+            R.drawable.pg7,R.drawable.pg8,
+            R.drawable.pg9,R.drawable.pg10,
+            R.drawable.pg11,R.drawable.pg12,R.drawable.pg13};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +30,7 @@ public class ImageActivity extends FragmentActivity {
         viewPager.setAdapter(imageFragmentPagerAdapter);
     }
 
-  public static class ImageFragmentPagerAdapter extends FragmentPagerAdapter {
+    public static class ImageFragmentPagerAdapter extends FragmentPagerAdapter {
         public ImageFragmentPagerAdapter(FragmentManager fm) {
             super(fm);
         }
@@ -44,7 +47,7 @@ public class ImageActivity extends FragmentActivity {
         }
     }
 
-    private static class SwipeFragment extends Fragment {
+    public static class SwipeFragment extends Fragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
@@ -66,5 +69,4 @@ public class ImageActivity extends FragmentActivity {
             return swipeFragment;
         }
     }
-
-  }
+}

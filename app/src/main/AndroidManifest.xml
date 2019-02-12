@@ -26,6 +26,9 @@
             android:name=".categoryActivity"
             android:rotationAnimation="crossfade" />
         <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".BrushToothActivity"></activity>
+        <activity android:name=".PlayGameActivity"></activity>
+        <activity android:name=".BirthdayActivity"></activity>
     </application>
 
 </manifest>
